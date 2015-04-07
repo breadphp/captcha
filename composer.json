@@ -1,29 +1,29 @@
 {
-    "name" : "bread/captcha",
-    "description" : "Bread authentication library",
-    "type" : "library",
-    "authors" : [{
-            "name" : "Giovanni Lovato",
-            "email" : "heruan@aldu.net"
-        },
-        {
-            "name" : "Alex Tomasello",
-            "email" : "alex.tomasello@saiv.it"
-        }
-    ],
-    "keywords" : [
-        "bread",
-        "captcha"
-    ],
-    "require": {
-        "php" : ">=5.4",
-        "bread/configuration" : "~1.3",
-        "bread/rest" : "~0.6",
-        "google/recaptcha": "~1.1"
-    },
-    "autoload" : {
-        "psr-4" : {
-            "Bread\\CAPTCHA\\" : "src"
-        }
-    }
+	"name" : "bread/captcha",
+	"description" : "Bread authentication library",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Giovanni Lovato",
+			"email" : "heruan@aldu.net"
+		}, {
+			"name" : "Alex Tomasello",
+			"email" : "alex.tomasello@saiv.it"
+		}
+	],
+	"keywords" : [
+		"bread",
+		"captcha"
+	],
+	"require" : {
+		"php" : ">=5.4",
+		"bread/configuration" : "~1.3",
+		"bread/rest" : "~0.6",
+		"google/recaptcha" : "~1.1",
+		"dapphp/securimage": "3.5.4"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Bread\\CAPTCHA\\" : "src"
+		}
+	}
 }
